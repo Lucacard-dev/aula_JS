@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Responsive Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon  Tag -->
+    <link rel="icon" type="image/png" href="../favicon.png">
+    <title>EXERCÍCIO 04 - JAVASCRIPT</title>
+    <meta name="description" content="Conteúdo das aulas de JS">
+    <meta name="keywords" content="sites, web, frontend">
+    <meta name="author" content="Lucas">
+</head>
+
+<body>
+    <h1> Integrando os recursos de interatividade do JS <mark>ALERT</mark></h1>
+    <script>
+        window.alert("desafio 01")
+     let num1 = parseFloat(prompt("Digite o primeiro número:"));
+     let num2 = parseFloat(prompt("Digite o segundo número:"));
+     let operacao = prompt("Digite a operação desejada: (+) SOMA ou (-) SUBTRAÇÃO");
+      if (operacao === "+") {
+            resultado = num1 + num2;
+            alert("O resultado da soma é: " + resultado);
+        } else if (operacao === "-") {
+            resultado = num1 - num2;
+            alert("O resultado da subtração é: " + resultado);
+        } else {
+            alert("Operação Errada Por favor, digite + ou -");
+        }
+    </script>
+</body>
+<html>
