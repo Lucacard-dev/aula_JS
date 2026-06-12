@@ -11,6 +11,13 @@
     <meta name="description" content="Conteúdo das aulas de JS">
     <meta name="keywords" content="sites, web, frontend">
     <meta name="author" content="Lucas">
+    <style>
+        p {
+            background-color: antiquewhite;
+            color: black;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,9 +31,35 @@
         <p> E para ajudar o aprendizado, é PRECISO precisar e exercitar</p>
 
     </div>
-    
+    <script>
+        const tags_p = document.getElementsByTagName('p')
+        console.log(tags_p);
+
+        let tag_p_1 = tags_p[0];
+        tag_p_1.style.backgroundColor = "blue"
+        tag_p_1.style.color = "white"
+
+        let tag_p_2 = tags_p[1];
+        tag_p_2.style.textAlign = "center";
+        tag_p_2.style.backgroundColor = "purple";
+        tag_p_2.style.color = "white"
+        tag_p_2.style.fontSize = "60pt";
+
+        let tag_p_3 = tags_p[2];
+        tag_p_3.style.backgroundColor = "yellow";
+        tag_p_3.style.color = "black";
+        tag_p_3.style.fontSize = "25pt";
+        tag_p_3.style.textAlign = "right";
+
+
+
+    </script>
+
 
 </body>
+
+</html>
+
 </body>
-</body>
+
 <html>
